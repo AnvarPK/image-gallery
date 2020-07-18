@@ -1,13 +1,13 @@
 ## Live
 
-[Check the result]()
+[Check the result](https://image-gallery-bice.vercel.app)
 
 ## Code
 
-[Download source code]()
+[Download source code](git push -u origin master)
 
-- [HTML]()
-- [SCSS]()
+- [Redux](https://github.com/AnvarPK/image-gallery/tree/master/src/redux)
+- [SCSS](https://github.com/AnvarPK/image-gallery/tree/master/src/scss)
 
 ## Tools used
 
