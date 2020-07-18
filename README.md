@@ -4,7 +4,7 @@
 
 ## Code
 
-[Download source code](git push -u origin master)
+[Download source code](https://github.com/AnvarPK/image-gallery/archive/master.zip)
 
 - [Redux](https://github.com/AnvarPK/image-gallery/tree/master/src/redux)
 - [SCSS](https://github.com/AnvarPK/image-gallery/tree/master/src/scss)
