@@ -1,0 +1,24 @@
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+@media (max-width: 575px) {
+    .flex-column-sm {
+        flex-direction: column !important;
+    }
+    .justify-content-center-sm {
+        justify-content: center !important;
+    }
+}

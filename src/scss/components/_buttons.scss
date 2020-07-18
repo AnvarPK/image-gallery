@@ -1,0 +1,50 @@
+.btn {
+    display: inline-block;
+    position: relative;
+    padding: 0.625rem 1.5rem;
+    background: $gray-light;
+    color: $white;
+    border: 1px solid darken($gray, 10%);
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    &--green {
+        background: $green;
+        border-color: darken($green, 10%);
+        &:hover {
+            background-color: darken($green, 10%);
+        }
+    }
+    &--red-soft {
+        background: $red-soft;
+        border-color: darken($red-soft, 10%);
+        &:hover {
+            background-color: darken($red-soft, 10%);
+        }
+    }
+    &--red {
+        background: $red;
+        border-color: darken($red, 10%);
+        &:hover {
+            background-color: darken($red, 10%);
+        }
+    }
+    &--blue {
+        background: $blue;
+        border-color: darken($blue, 10%);
+        &:hover {
+            background-color: darken($blue, 10%);
+        }
+    }
+}
+
+.btn-group {
+    .btn {
+        border-right-width: 0;
+        &:last-child {
+            border-right-width: 1px;
+        }
+    }
+}

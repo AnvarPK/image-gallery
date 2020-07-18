@@ -1,0 +1,30 @@
+.text {
+    font-size: 1.125rem;
+
+    //Size
+    &-large {
+        font-size: 1.5rem;
+    }
+
+    //Color
+    &-dark {
+        color: $black;
+    }
+    &-gray {
+        color: $gray;
+    }
+    &-gray-dark {
+        color: darken($gray, 60%);
+    }
+    &-blue {
+        color: $blue-dark;
+    }
+    &-red {
+        color: $red-soft;
+    }
+
+    //Alignment
+    &-center {
+        text-align: center;
+    }
+}
